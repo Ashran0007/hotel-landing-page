@@ -1,0 +1,451 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+
+}
+header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('logo img/photo_2024-06-20_09-23-48.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.nav{
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.nav a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #3E262E;
+}
+.nav h1 {
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #3E262E;
+}
+.leftnav {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 60%;
+align-items: center;
+}
+.rightnav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+    margin-right:4%;
+}
+#reservation{
+    border: 2px solid  #efc3a3 ;
+    border-radius: 10px;
+    background-color: #3E262E;
+    color: #efc3a3;
+    height: 35px;
+    width: 140px;
+    text-align: center;
+    padding-top:8px;
+    
+}
+#reservation:hover{
+    background:#efc3a3;
+    color: #3E262E;
+}
+.mainhead{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.mainhead p{
+    width: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #3E262E;
+}
+.mainhead h1{
+    font-size: 4.5rem;
+    color: #3E262E;
+}
+.room{
+    width: 100vw;
+    height: 100vh;
+    background:#edae80;
+}
+.room h1{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color:#3E262E;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top:30px;
+}
+.room article{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #3E262E;  
+    padding: 25px;
+    text-align: center;
+}
+.roomcardmain{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+    padding: 5px;
+}
+#roomcards{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #3E262E ;
+    border-radius: 15px;
+    height: 500px;
+    width: 28%;
+    margin-top: 30px;
+    align-items: start;
+}
+#roomcards img{
+    height: 65%;
+    width: 100%;
+    border-radius: 15px;
+}
+#roomcards h1{
+    color: #3E262E;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+#roomcards p{
+    color: #3E262E;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600; 
+    padding: 5px;
+}
+#roomcards a {
+    text-decoration: none;
+    margin-left: 100px;
+    text-align: center;
+    border: 2px solid #3E262E;
+    border-radius: 5px;
+    background-color: #3E262E;
+    color: #efc3a3;
+    z-index: 1000;
+}
+#roomcards a:hover{
+    background-color:#efc3a3;
+    color: #3E262E;
+    font-family: 600;
+}
+.service{
+    width: 100vw;
+    height: 100vh;
+    background:#3E262E;
+}
+.service h1{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color:#efc3a3;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top:30px;
+}
+.service article{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #efc3a3;  
+    padding: 25px;
+    text-align: center;
+}
+#servicediv{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+#sdiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+
+}
+#sdiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+}
+#servicecard{
+    border: 2px solid #edae80;
+    border-radius:50px;
+    height: 70%;
+    width: 15%;
+    border-radius: 20px;
+    row-gap: 0px;
+    background: #efc3a3;
+}
+#servicecard img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 50%;
+    width: 50%;
+    margin-left: 50px;
+}
+
+#servicecard h1{
+    color: #3E262E;
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 0%;
+}   
+
+
+
+
+
+
+.event{
+    width: 100vw;
+    height: 100vh;
+    background:#edae80;
+}
+.event h1{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color:#3E262E;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top:30px;
+}
+.event article{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #3E262E;  
+    padding: 25px;
+    text-align: center;
+}
+.eventcardmain{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+    padding: 5px;
+}
+#eventcards{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #3E262E ;
+    border-radius: 15px;
+    height: 500px;
+    width: 28%;
+    margin-top: 30px;
+    align-items:center;
+}
+#eventcards img{
+    height: 65%;
+    width: 100%;
+    border-radius: 15px;
+}
+#eventcards h1{
+    color: #3E262E;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+#eventcards a {
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid #3E262E;
+    border-radius: 5px;
+    background-color: #3E262E;
+    color: #efc3a3;
+    z-index: 1000;
+    margin-top: 30px;
+}
+#eventcards a:hover{
+    background-color:#efc3a3;
+    color: #3E262E;
+    font-family: 600;
+}
+.places{
+    width: 100vw;
+    height: 100vh;
+    background:#3E262E;
+}
+.places h1{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color:#efc3a3;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top:30px;
+}
+.places p{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #efc3a3;  
+    padding: 25px;
+    text-align: center;
+}
+#placesdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+#pdiv1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+
+}
+#pdiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+}
+#placescard{
+    border: 2px solid #edae80;
+    height: 90%;
+    width: 25%;
+    border-radius: 20px;
+    row-gap: 0px;
+}
+#placescard img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 50%;
+    width: 100%;
+    margin: 2px;
+}
+
+#placescard h1{
+    font-size: 30px;
+    margin: 0%;
+    padding: 0%;
+}   
+#placescard p{
+    padding: 0px;
+    margin: 8px;
+} 
+#placescard a{
+    margin-left: 135px;
+    border: 1px solid #edae80;
+    background: #efc3a3;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #3E262E;
+}
+#placescard a:hover{
+    background-color: #3E262E;
+    color: #efc3a3;
+}
+.contact{
+    width: 100vw;
+    height: 50vh;
+    background:#edae80;
+}
+.contact h1{
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color:#3E262E;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top:30px;
+}
+.contact article{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: #3E262E;  
+    padding: 10px;
+    text-align: center;
+}
+.contdivmain{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.contdivleft{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    
+}
+.contdivleft h1{
+    font-size: 20px;
+    text-align: start;
+
+}
+#mail{
+    display:flex;
+    margin-top: 20px;
+}
+#mail img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+#mail a{
+    text-decoration: none;
+    color: #3E262E;
+    font-weight: 600;
+    padding-left: 6px;
+}
+#call{
+    display:flex;
+    margin-top: 20px;
+}
+#call img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+#call a{
+    text-decoration: none;
+    color: #3E262E;
+    font-weight: 600;
+    padding-left: 6px;
+}
+.contdivright{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.contdivright iframe{
+    border-radius: 20px;
+}
+footer{
+    width: 100vw;
+    height: 8vh;
+    background: #3E262E;
+    color: #efc3a3;
+    align-items: center;
+}
+footer h1{
+    padding-left: 32%;
+    padding-top: 15px;
+    font-size: 20px;
+}
